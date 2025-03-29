@@ -40,7 +40,6 @@ function Header(): React.ReactNode {
   }, [isMenuOpen]);
 
   return (
-
     <motion.header
       animate={{ y: scrollDirection === 'down' ? -100 : 0 }}
       transition={{ type: 'spring', stiffness: 300, damping: 30 }}
