@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from 'react-helmet-async';
 import { useNavigate, useParams } from "react-router-dom";
-import FullAgenteCulturalType from "../../shared-lib/FullAgenteCulturalType";
+import FullAgenteCulturalType from "../../shared-lib2/FullAgenteCulturalType";
 import { useQuery } from '@tanstack/react-query';
 import { Hero } from "../../components/Sections/AgenteCultural/Hero/Hero";
 import { Descriptions } from "../../components/Sections/AgenteCultural/Descriptions/Descriptions";

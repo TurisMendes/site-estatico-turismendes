@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import CarouselSkeleton from "../CarouselPhotos/CarouselSkeleton";
 import { CircularProgress } from "@mui/material";
 import ReactPlayer from "react-player";
-import { VideoData } from "../../../../shared-lib/typesHomePage";
+import { VideoData } from "../../../../shared-lib2/typesHomePage";
 
 interface Props {
   videos: VideoData[];

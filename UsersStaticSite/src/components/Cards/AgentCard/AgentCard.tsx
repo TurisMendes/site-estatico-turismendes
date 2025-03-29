@@ -1,5 +1,5 @@
 import React from 'react';
-import { AgenteCulturalHomeCard } from '../../../shared-lib/typesHomePage';
+import { AgenteCulturalHomeCard } from '../../../shared-lib2/typesHomePage';
 
 function AgentCard({ name, shortDescription, linkUrl, imageData, }: AgenteCulturalHomeCard): React.ReactNode {
   return (

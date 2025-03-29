@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { AboutSessionData } from "../../shared-lib/typesHomePage";
+import { AboutSessionData } from "../../shared-lib2/typesHomePage";
 
 function Footer(): React.ReactNode {
   const [sobre, setSobre] = useState<undefined | AboutSessionData>(undefined);

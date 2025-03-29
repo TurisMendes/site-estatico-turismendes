@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageData } from "../../../../shared-lib/typesHomePage";
+import { ImageData } from "../../../../shared-lib2/typesHomePage";
 import Breadcrumb from "../Breadcrumb/Breadcrumb";
 
 interface Props {

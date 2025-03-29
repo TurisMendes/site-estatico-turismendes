@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrilhasHomeCard } from '../../../shared-lib/typesHomePage';
+import { TrilhasHomeCard } from '../../../shared-lib2/typesHomePage';
 
 function TrailCard({ title, level, shortDescription, linkUrl, imageData }: TrilhasHomeCard): React.ReactNode {
   const getDifficultyStyles = (level: string) => {

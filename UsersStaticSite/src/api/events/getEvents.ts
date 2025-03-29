@@ -1,5 +1,5 @@
 import { BASE_URL_API } from "../../globalConstants";
-import { EventHomeCard, ResponseDTO } from "../../shared-lib/typesHomePage";
+import { EventHomeCard, ResponseDTO } from "../../shared-lib2/typesHomePage";
 import axios, { AxiosError } from "axios";
 
 export const getEvents = async () => {

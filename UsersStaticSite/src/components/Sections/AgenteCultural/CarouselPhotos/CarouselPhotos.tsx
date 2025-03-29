@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import CarouselSkeleton from "./CarouselSkeleton";
 import { CircularProgress } from "@mui/material";
-import { ImageData } from "../../../../shared-lib/typesHomePage";
+import { ImageData } from "../../../../shared-lib2/typesHomePage";
 
 interface Props {
   photos: ImageData[];

@@ -1,5 +1,5 @@
 import { BASE_URL_API } from "../../globalConstants";
-import { HomeBanner, ResponseDTO } from "../../shared-lib/typesHomePage";
+import { HomeBanner, ResponseDTO } from "../../shared-lib2/typesHomePage";
 import axios, { AxiosError } from "axios";
 
 export const getBanners = async (): Promise<ResponseDTO<HomeBanner[]>> => {

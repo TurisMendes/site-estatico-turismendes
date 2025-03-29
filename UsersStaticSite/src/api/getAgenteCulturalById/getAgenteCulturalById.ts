@@ -1,6 +1,6 @@
 import { BASE_URL_API } from "../../globalConstants";
-import FullAgenteCulturalType from "../../shared-lib/FullAgenteCulturalType";
-import { ResponseDTO } from "../../shared-lib/typesHomePage";
+import FullAgenteCulturalType from "../../shared-lib2/FullAgenteCulturalType";
+import { ResponseDTO } from "../../shared-lib2/typesHomePage";
 import axios from "axios";
 
 export const getCulturalAgentById = async (_id: string | undefined) => {

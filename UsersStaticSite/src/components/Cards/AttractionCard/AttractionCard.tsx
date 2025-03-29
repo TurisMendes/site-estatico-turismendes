@@ -1,6 +1,6 @@
 import React from 'react';
 import ButtonCustom from '../../ButtonCustom/ButtonCustom';
-import { AtracaoLocalHomeCard } from '../../../shared-lib/typesHomePage';
+import { AtracaoLocalHomeCard } from '../../../shared-lib2/typesHomePage';
 
 function AttractionCard({ imageData, linkUrl, title, shortDescription }: AtracaoLocalHomeCard): React.ReactNode {
 

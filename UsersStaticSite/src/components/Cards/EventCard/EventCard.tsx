@@ -1,6 +1,6 @@
 import React from 'react';
 import ButtonCustom from '../../ButtonCustom/ButtonCustom';
-import { EventHomeCard } from '../../../shared-lib/typesHomePage';
+import { EventHomeCard } from '../../../shared-lib2/typesHomePage';
 
 function EventCard({
   eventTitle,

@@ -2,7 +2,7 @@ import { BASE_URL_API } from "../../globalConstants";
 import {
   AgenteCulturalHomeCard,
   ResponseDTO,
-} from "../../shared-lib/typesHomePage";
+} from "../../shared-lib2/typesHomePage";
 import axios, { AxiosError } from "axios";
 
 export const getAgents = async () => {

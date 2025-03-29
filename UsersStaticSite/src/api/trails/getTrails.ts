@@ -1,5 +1,5 @@
 import { BASE_URL_API } from "../../globalConstants";
-import { ResponseDTO, TrilhasHomeCard } from "../../shared-lib/typesHomePage";
+import { ResponseDTO, TrilhasHomeCard } from "../../shared-lib2/typesHomePage";
 import axios, { AxiosError } from "axios";
 
 export const getTrails = async () => {

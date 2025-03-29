@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import BannerSkeleton from '../Skeletons/BannerSkeleton';
-import { HomeBanner, ResponseDTO } from '../../shared-lib/typesHomePage';
+import { HomeBanner, ResponseDTO } from '../../shared-lib2/typesHomePage';
 import { useQuery } from '@tanstack/react-query';
 import { FetchError } from '../Errors/FetchError';
 import { getBanners } from '../../api/banners/getBanners';
