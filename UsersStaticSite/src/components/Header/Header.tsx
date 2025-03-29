@@ -44,7 +44,7 @@ function Header(): React.ReactNode {
     <motion.header
       animate={{ y: scrollDirection === 'down' ? -100 : 0 }}
       transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-      className="fixed top-0 flex w-full items-center bg-primary justify-between lg:justify-center h-20 px-4 md:px-8 z-30"
+      className="fixed top-0 flex w-full items-center bg-primary justify-between lg:justify-center h-20 z-30"
       id='home'
     >
       <div className="app-container">
